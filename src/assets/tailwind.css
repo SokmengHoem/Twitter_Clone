@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .link-active {
+      @apply flex  justify-center items-center xl:justify-start  text-blue-400;
+    }
+    .link {
+      @apply flex items-center justify-center  xl:justify-start text-gray-800 dark:text-white px-3 py-2 rounded-full hover:bg-slate-200  transition duration-300 ease-in-out;
+    }
+    .icon {
+      @apply hidden xl:block xl:ml-4 font-bold;
+    }
+  }
+  
+  
+  
